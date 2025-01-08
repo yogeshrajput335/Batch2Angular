@@ -1,0 +1,4 @@
+1. Create Angular Application from angular cli -
+2. Create Component from ng g c -
+3. Create Manual Component -
+4. Try to add Input() in the child Component-
