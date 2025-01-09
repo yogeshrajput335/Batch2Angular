@@ -2,3 +2,6 @@
 2. Create Component from ng g c -
 3. Create Manual Component -
 4. Try to add Input() in the child Component-
+5. Output
+6. Binding (property, Event, two way binding)
+7. Pipe
