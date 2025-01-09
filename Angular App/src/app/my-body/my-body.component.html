@@ -1,5 +1,6 @@
 <div style="width:100%;height: 500px;background-color: beige;">
     Body <dev-ads [AdsName]="ad1"></dev-ads> 
     <dev-ads [AdsName]="ad2"></dev-ads>
-
+    <input type="text" [(ngModel)]="y1">{{y1}}
+<button (click)="SendData(y1)">Send Date</button>
     </div>

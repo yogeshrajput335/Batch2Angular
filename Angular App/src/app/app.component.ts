@@ -11,4 +11,8 @@ import { MyBodyComponent } from './my-body/my-body.component';
 })
 export class AppComponent {
   title = 'my-batch2';
+
+  findData(event:any){
+    this.title = event;
+  }
 }

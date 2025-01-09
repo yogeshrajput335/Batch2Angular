@@ -9,4 +9,7 @@ import { MyAdsComponent } from '../my-ads/my-ads.component';
 })
 export class MyHeaderComponent {
   test="Government"
+  show(){
+    console.log('asd')
+  }
 }
