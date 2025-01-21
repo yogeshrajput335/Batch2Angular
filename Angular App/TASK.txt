@@ -5,3 +5,8 @@
 5. Output
 6. Binding (property, Event, two way binding)
 7. Pipe
+8. Observable/Observer
+9. Promise
+10. Typescript
+11. Directives
+12. Services with dependancy injection

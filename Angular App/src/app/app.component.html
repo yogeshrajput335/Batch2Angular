@@ -1,3 +1,11 @@
-{{title}}
+<!-- {{data |json}}
+ {{title}} 
 <app-my-header></app-my-header>
-<app-my-body (getData)="findData($event)"></app-my-body>
+<app-my-body (getData)="findData($event)"></app-my-body> -->
+<table>
+    <tr *ngFor="let d of data">
+        <td>{{d.id}}</td>
+        <td>{{d.name}}</td>
+        <td>{{d.data?.color}}</td>
+    </tr>
+</table>
